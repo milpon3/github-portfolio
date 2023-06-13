@@ -35,14 +35,16 @@
 
 .anchors p {
   font-weight: bold;
-  color: white;
+  font-size: 11px;
+  color: #d1d1d1;
 }
 
 .anchors a {
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-underline-offset: 5px;
-  text-decoration-color: #00aeef;
+  text-decoration-color: #00aeef; */
+  text-decoration: none;
 }
 
 .anchors a:hover {
@@ -148,6 +150,7 @@
   width: 100%;
   justify-content: space-around;
   padding: 1em;
+  flex-wrap: wrap;
 }
 
 .link {
@@ -293,6 +296,7 @@
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
+  margin-bottom: 2em;
 }
 
 .btn-more:hover {
@@ -316,6 +320,46 @@
   letter-spacing: 3px;
   color: #d1d1d1;
   opacity: 0.2;
+}
+
+@media only screen and (max-width: 800px) {
+  .profile {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .anchors {
+    display: none;
+  }
+
+  .timeline-cart {
+    gap: 5em;
+  }
+
+  .timeline-title {
+    flex-direction: column;
+  }
+
+  .timeline-visual {
+    flex-direction: column;
+    min-height: 20px;
+  }
+
+  .margin-r {
+    margin: 0;
+  }
+
+  .btn-more {
+    align-self: center;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  .footer-text {
+    height: 100px;
+  }
 }
 
 @keyframes moveup {
