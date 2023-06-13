@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 433.66 155.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #0f93ff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="363.11" y1="94.05" x2="363.11" y2=".66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#095899"/>
+      <stop offset=".2" stop-color="#0f93ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="400.74" y1="6.22" x2="400.74" y2="94.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#095899"/>
+      <stop offset=".4" stop-color="#0f93ff"/>
+      <stop offset=".8" stop-color="#0f93ff"/>
+      <stop offset="1" stop-color="#095899"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="400.74" y1="113.7" x2="400.74" y2="155.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#095899"/>
+      <stop offset=".3" stop-color="#0f93ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M98.88,114.09l-10.33-21.83H35.72l-10.33,21.83H0L57.05,0h10.17l57.05,114.09h-25.38Zm-54.9-39.27h36.29l-18.19-38.11-18.11,38.11Z"/>
+  <path d="M229.01,114.09h-26.46l-26.04-40.1h-22.16v40.1h-23.23V.66h55.56c10.36,0,19.1,3.5,26.21,10.5,7.11,7,10.67,15.85,10.67,26.54,0,8.1-2.15,15.16-6.45,21.17-4.3,6.01-10.06,10.31-17.28,12.9l29.18,42.33ZM154.36,19.76V55.64h26.21c5.51,0,10.17-1.71,13.97-5.13,3.8-3.42,5.7-7.67,5.7-12.77s-1.87-9.37-5.62-12.81c-3.75-3.44-8.27-5.17-13.56-5.17h-26.7Z"/>
+  <path d="M325.33,.66V21.16h-35.88V114.09h-24.39V21.16h-36.05V.66h96.32Z"/>
+  <polygon class="cls-1" points="413.22 6.22 338.8 94.05 313 94.05 396.17 .66 413.22 .66 413.22 6.22"/>
+  <polygon class="cls-4" points="413.22 6.22 388.26 35.68 388.26 94.05 413.22 94.05 413.22 6.22"/>
+  <rect class="cls-2" x="313" y="94.05" width="120.66" height="19.65"/>
+  <rect class="cls-3" x="388.26" y="113.7" width="24.96" height="41.9"/>
+</svg>
