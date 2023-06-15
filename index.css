@@ -333,7 +333,11 @@
   }
 
   .timeline-cart {
-    gap: 5em;
+    gap: 3em;
+  }
+
+  .timeline-job {
+    width: 85%;
   }
 
   .timeline-title {
@@ -343,6 +347,7 @@
   .timeline-visual {
     flex-direction: column;
     min-height: 20px;
+    gap: 3em;
   }
 
   .margin-r {
@@ -351,6 +356,7 @@
 
   .btn-more {
     align-self: center;
+    margin-bottom: 0;
   }
 
   img {
