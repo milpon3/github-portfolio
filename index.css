@@ -14,32 +14,33 @@
   flex-direction: column;
 }
 
-.anchors {
+#anchors {
   display: flex;
   flex-direction: column;
   gap: 20px;
   position: fixed;
-  top: 30px;
-  left: 50px;
+  top: 20px;
+  left: 20px;
   border-radius: 5px;
   border: 2px solid #00aeef;
   background-color: #3e3e3f;
   padding: 20px;
   opacity: 0.25;
+  z-index: 1000;
 }
 
-.anchors:hover {
+#anchors:hover {
   opacity: 1;
   transition: ease-in-out 0.1s;
 }
 
-.anchors p {
+#anchors p {
   font-weight: bold;
   font-size: 11px;
   color: #d1d1d1;
 }
 
-.anchors a {
+#anchors a {
   color: white;
   /* text-decoration: underline;
   text-underline-offset: 5px;
@@ -47,9 +48,20 @@
   text-decoration: none;
 }
 
-.anchors a:hover {
+#anchors a:hover {
   color: #00aeef;
   transition: ease-in-out 0.1s;
+}
+
+#navbar {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.show_nav #navbar {
+  display: flex;
 }
 
 .content {
@@ -322,13 +334,8 @@
   opacity: 0.2;
 }
 
-@media only screen and (max-width: 800px) {
-  .profile {
-    flex-direction: column;
-    gap: 2em;
-  }
-
-  .anchors {
+@media only screen and (max-width: 1190px) {
+  #anchors {
     display: none;
   }
 
@@ -366,6 +373,14 @@
   .footer-text {
     height: 100px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .profile {
+    flex-direction: column;
+    gap: 2em;
+  }
+
 }
 
 @keyframes moveup {
